@@ -1,8 +1,4 @@
-Claro! Aqui está o README atualizado com uma seção de colaboradores:
-
----
-
-# Nome do Projeto
+# Pesca React
 
 Este é um projeto desenvolvido em ReactJS que utiliza `react-router-dom` para a navegação entre páginas e `bootstrap` para estilização e responsividade.
 
