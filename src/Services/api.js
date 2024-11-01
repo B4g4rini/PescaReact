@@ -1,10 +1,7 @@
-import api from '../api'; // Certifique-se de ajustar o caminho conforme necessário
+import axios from "axios"
 
-export const fetchClientes = async () => {
-    try {
-        const response = await api.get('/clientes'); // Altere o endpoint conforme necessário
-        return response.data;
-    } catch (error) {
-        throw error; // Propaga o erro para ser tratado no componente
-    }
-};
+const api = axios.create({
+    baseURL: "https://localhost:5000/api", //altere o endereço da sua api
+})
+
+export default api;
